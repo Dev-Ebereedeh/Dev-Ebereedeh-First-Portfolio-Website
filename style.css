@@ -15,22 +15,22 @@ body{
     
     
 }
-header{
+/* header{
     position: sticky;
     top: 0;
-    /* border: 2px solid; color: #6c757d; */
+    border: 2px solid; color: #6c757d;
     z-index: 10;
     
-}
-.navbar{
+} */
+header{
     /* background-color: #cdc2a5; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /* top: 0; */
-    /* left: 0; */
-    padding: 30px;
-    width: 1250px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border: 1px solid green;
+    
 
     
 }
@@ -198,7 +198,7 @@ sform: rotate(270deg); */
 /* CSS STYLESHEET FOR PORTFOLIO PAGE */
 
 .service{
-    background-color: #cdc2a5;
+    background-color: #E1D7C6;
     width: 100%vw;
     color: #1e2a5e; */
     display: flex;
