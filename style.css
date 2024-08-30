@@ -15,25 +15,23 @@ body{
     
     
 }
-/* header{
-    position: sticky;
-    top: 0;
-    border: 2px solid; color: #6c757d;
-    z-index: 10;
-    
-} */
 header{
-    /* background-color: #cdc2a5; */
-    display: flex;
-    justify-content: space-between;
     position: sticky;
     top: 0;
+    /* border: 2px solid; color: #6c757d; */
     z-index: 10;
-    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline-end: 50px;
+    padding-block: 30px;
     
+} 
+.navbar{
+    /* background-color: #cdc2a5; */
+    }
 
-    
-}
 .logo{
     font-size: 25px;
     color: aliceblue;
@@ -48,7 +46,8 @@ header{
     color: aliceblue;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 20px;
+    
     
     
 
@@ -198,7 +197,7 @@ sform: rotate(270deg); */
 /* CSS STYLESHEET FOR PORTFOLIO PAGE */
 
 .service{
-    background-color: #E1D7C6;
+    background-color: #efeff2;
     width: 100%vw;
     color: #1e2a5e; */
     display: flex;
@@ -269,6 +268,7 @@ sform: rotate(270deg); */
     background: #fff;
     margin: 50px, 4px;
     box-shadow: 0px, 15px, 30px rgba(0, 0, 0, 0.1px);
+    margin-bottom: 70px;
 }
 
 .content-box p{
@@ -288,23 +288,54 @@ sform: rotate(270deg); */
     color:#6C757D;
     text-align: center;
 }
-.card h3:hover {
+.card h3:hover {       
     font-weight: 700;
     cursor: pointer;
     color: #6c757d;
-
-
- }
-
-
+}
 
 .card h3{
     color: #000000;
     text-align: center;
 }
-.card p{
+
+/* Portfolio  Section */
+
+.myportfolio {
+    width: 100vw;
+    background-color: #bbbfc0;
+}
+
+.myportfolio h2 {
+    font-size: 38px;
+    padding-top: 90px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgctntwo {
+    display: flex;
+    border: 2px solid #ff5724;
+    justify-content: center;
+    align-items: center;
+    padding-block: 30px;
+    gap: 50px;
 
 }
+
+
+#imagep img{
+    width: 100%;
+    height: 100%;
+}
+#imagep {
+    width: 350px;
+    border: 2px solid; color: #188879;
+    
+
+
+}
+
 
 
 
