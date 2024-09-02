@@ -8,9 +8,11 @@
     font-family: 'poppins' ,sans-serif;
 }
 
-body{
-    color: aliceblue;
+.home{
+
     background-color: #010f3bf6;
+    width: 100%vw;
+    height: 100vh;
     
     
     
@@ -19,7 +21,7 @@ header{
     position: sticky;
     top: 0;
     /* border: 2px solid; color: #6c757d; */
-    z-index: 10;
+    z-index: 30;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,13 +30,11 @@ header{
     padding-block: 30px;
     
 } 
-.navbar{
-    /* background-color: #cdc2a5; */
-    }
+
 
 .logo{
     font-size: 25px;
-    color: aliceblue;
+    /* color: aliceblue; */
     text-decoration: none;
     font-weight: 600;
     margin-left: 50px;
@@ -43,7 +43,7 @@ header{
 
 #navlink a{
     font-size: 18px;
-    color: aliceblue;
+    /* color: aliceblue; */
     text-decoration: none;
     font-weight: 500;
     margin-left: 20px;
@@ -141,51 +141,53 @@ header{
     
 }
 
-/* .linkout{
-    position: absolute;
-    width: 200px;
-    border-bottom: 70px;
-    background-color: darkgoldenrod;
-    border: 2px solid; color: azure;
+
+.linkout {
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-end;
+    border: 2px solid color black;
+
 }
 
-.linkout a{
-    display: inline-flex;
-    align-content: flex-end;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: transparent;
+#contacticons {}
 
-} */
-
-
-.background-container {
+.imagectn{
     display: flex;
     justify-content: flex-end;
-    /* align-items: flex-end; */
-    width: 1450px;
-    /* height: 1200px; */
+    align-items: center;
+    /* border: 2px solid blanchedalmond; */
+    padding-inline-start: 200px;        
+
+}
+
+#profilep > img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
     
-    position: absolute;
-    background-image: url('img\ portfolio.jpg') no repeat;
-    /* background-size: auto; */
-    /* background-position : center; */
     
 }
 
-.background-container img{
+#profilep{
+width: 250px;
+margin-right: 200px;
+    
+}
+
+/* .background-container img{
     border-radius: 50px;
     border-style: hidden;
     /* margin-left: 20px; */
-    width: 70%vw;
+    /* width: 70%vw;
     margin-top: 380px;
-    display: none;
+    display: none; */ */
     /* tran    /* height: fit-content;
 sform: rotate(270deg); */
     /* transform: skew(20deg, 20deg); */
-    width: 100%vw;
-    /* height: 100%vh; */
+    /* width: 100%vw;
+    height: 100%vh; */
 }
 
 .background-container :hover {
@@ -197,16 +199,9 @@ sform: rotate(270deg); */
 /* CSS STYLESHEET FOR PORTFOLIO PAGE */
 
 .service{
-    background-color: #efeff2;
+    background-color: #6eacda;
     width: 100%vw;
-    color: #1e2a5e; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: aqua; */
-    
-    
-
+    color: #1e2a5e; 
 }
 
 .intro{
@@ -260,14 +255,14 @@ sform: rotate(270deg); */
     margin-left: 80px;
     /* border: 2px solid; color #1e2a5e; */
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: #dad3be;
     margin: 50px, 4px;
-    box-shadow: 0px, 15px, 30px rgba(0, 0, 0, 0.1px);
+    box-shadow: 0px, 15px, 30px rgba (0, 0, 0, 0.3px);
     margin-bottom: 70px;
 }
 
@@ -278,6 +273,7 @@ sform: rotate(270deg); */
     color: #ff5724;
     font-size: 2rem;
     margin: 10px;
+    z-index: 20;
 }
 .card i:hover {
     color: #1e2a5e;
@@ -303,7 +299,8 @@ sform: rotate(270deg); */
 
 .myportfolio {
     width: 100vw;
-    background-color: #bbbfc0;
+    height: 1000px;
+    background-color: #c7ffd8;
 }
 
 .myportfolio h2 {
@@ -311,11 +308,13 @@ sform: rotate(270deg); */
     padding-top: 90px;
     padding-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #1e2a5e;
+    text-align: center;
 }
 
 .imgctntwo {
     display: flex;
-    border: 2px solid #ff5724;
+    /* border: 2px solid #ff5724; */
     justify-content: center;
     align-items: center;
     padding-block: 30px;
@@ -325,18 +324,51 @@ sform: rotate(270deg); */
 
 
 #imagep img{
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 150px;
+    overflow: hidden;
+    /* border-radius: 10px; */
+    border: 3px solid color blue;
 }
 #imagep {
     width: 350px;
-    border: 2px solid; color: #188879;
-    
 
 
 }
 
+#imagep:nth-child(even){
+    /* height: fit-content; */
+    padding-block: 30px;
+}
 
+/* Contact Page */
+
+.contactme{
+    background-color: #fff;
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+    margin-block: 100px;
+    padding-block: 50px;
+    color: #1e2a5e;
+    
+#contacticon {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center
+
+}
+
+.foter{
+    background-color: #030716;
+    height: 50px;
+    border: 2px solid blueviolet;
+}
+.footer h5 {
+    text-align: center;
+    border: 2px solid color #000;
+}
 
 
 
