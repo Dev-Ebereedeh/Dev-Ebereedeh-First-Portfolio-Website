@@ -1,13 +1,18 @@
-/* Mobile Phone */
-/* @media screen and (max-width: 480px ){
+Mobile Phone
+ @media screen and (max-width: 480px ) {
     header {
         flex-direction: column;
     }
 
+    .intro p{
+        font-size: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+
 }
-@media screen  and (max-width: ){
+/* @media screen  and (max-width: ) {
      */
-}
+} */
 
 
     
