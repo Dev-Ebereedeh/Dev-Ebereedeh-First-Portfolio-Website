@@ -128,7 +128,7 @@ header{
     left: 5;
     height: 70%;
     width: 150px;
-    border-radius: 8px;
+    bor.er-radius: 8px;
     /* z-index: -1; */
 
 }
@@ -136,21 +136,29 @@ header{
 .btn-box a:hover{
     background-color: rgba(255, 0, 128, 0.925);
     transition: 0.5s;
-    overlay: ;
     transform: scale(0.5);
     
 }
-
-
-.linkout {
+.iconic{
     display: flex;
-    justify-items: flex-start;
+    justify-content: space-evenly;
     align-items: flex-end;
-    border: 2px solid color black;
+    position: absolute;
+    bottom: 32px;
+    /* left: 70px; */
+    border: 2px solid; color: #000000;
+    padding-inline: 20px;
+    
+}
+
+.iconic img{
+    width: 24px;
 
 }
 
-#contacticons {}
+
+
+
 
 .imagectn{
     display: flex;
@@ -199,7 +207,7 @@ sform: rotate(270deg); */
 /* CSS STYLESHEET FOR PORTFOLIO PAGE */
 
 .service{
-    background-color: #6eacda;
+    background-color: #ebf4eb;
     width: 100%vw;
     color: #1e2a5e; 
 }
@@ -262,7 +270,7 @@ sform: rotate(270deg); */
     align-items: center;
     background: #dad3be;
     margin: 50px, 4px;
-    box-shadow: 0px, 15px, 30px rgba (0, 0, 0, 0.3px);
+    box-shadow: 10px 10px 5px grey;
     margin-bottom: 70px;
 }
 
@@ -299,7 +307,7 @@ sform: rotate(270deg); */
 
 .myportfolio {
     width: 100vw;
-    height: 1000px;
+    height: 600px;
     background-color: #c7ffd8;
 }
 
@@ -319,6 +327,7 @@ sform: rotate(270deg); */
     align-items: center;
     padding-block: 30px;
     gap: 50px;
+    /* border: 2px solid; color: black; */
 
 }
 
@@ -327,47 +336,63 @@ sform: rotate(270deg); */
     width: 350px;
     height: 150px;
     overflow: hidden;
-    /* border-radius: 10px; */
-    border: 3px solid color blue;
+    border: 5px solid; color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 10px 10px 5px grey;
+    
 }
-#imagep {
-    width: 350px;
+
 
 
 }
 
 #imagep:nth-child(even){
-    /* height: fit-content; */
+    height: fit-content;
     padding-block: 30px;
+    box-shadow: 10px 10px 5px grey;
+    
+    
 }
 
 /* Contact Page */
 
 .contactme{
     background-color: #fff;
-    display: flex;
-
-    justify-content: center;
-    align-content: center;
     margin-block: 100px;
     padding-block: 50px;
     color: #1e2a5e;
-    
-#contacticon {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center
-
 }
 
-.foter{
-    background-color: #030716;
-    height: 50px;
-    border: 2px solid blueviolet;
-}
-.footer h5 {
+.contactme h2{
     text-align: center;
-    border: 2px solid color #000;
+    /* border: 2px solid; color: #000; */
+    padding-block: 10px;
+}
+
+.contactimg{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactimg img{
+    width: 50px;
+    margin-block: 30;
+}
+
+footer{
+
+    height: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
+
+
 }
 
 
