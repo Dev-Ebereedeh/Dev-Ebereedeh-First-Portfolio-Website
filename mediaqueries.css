@@ -1,18 +1,38 @@
 Mobile Phone
- @media screen and (max-width: 480px ) {
-    header {
-        flex-direction: column;
-    }
+@media (max-width: 480px) {
+    header_navlink {
 
-    .intro p{
-        font-size: 50px;
-        margin-bottom: 20px;
-        text-align: center;
+    }
+}
+    
+
+
+        
+
+    
+        
+        
+        
+          
+
+ 
+    
+    
+
+ 
 
 }
-/* @media screen  and (max-width: ) {
-     */
-} */
+
+    
+    
+
+    
+        
+
+}
+@media screen  and (max-width: ) {
+     
+}
 
 
     
